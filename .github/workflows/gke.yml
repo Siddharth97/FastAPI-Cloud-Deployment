@@ -23,7 +23,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: cluster-1   # TODO: update to cluster name
   GKE_ZONE: us-central1-f  # TODO: update to cluster zone
-  IMAGE: gcr.io/PROJECT_ID/IMAGE:TAG       #preffered docker image name
+  IMAGE: gke-test       #preffered docker image name
 
 jobs:
   setup-build-publish-deploy:
